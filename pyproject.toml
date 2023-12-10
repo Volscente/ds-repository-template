@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "ds-repository-template"
+version = "0.1.0"
+description = "Data Science repository template"
+authors = ["Simone Porreca <porrecasimone@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
